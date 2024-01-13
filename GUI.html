@@ -1,0 +1,40 @@
+<html>
+    <body>
+
+        <input id="addDisaster" type="button" value="Report Disaster">
+
+        <div id="menu" class="menu">
+            <input type="button" id="submitBTN" value="Submit">
+            <input type="file" id="myFile" name="File" src="MOCK_DATA.csv">
+            <input type="button" id="try" value="Try">
+    
+    
+            <input type="button" id="add" value="Add">
+            <input type="button" id="sortIntensityLow" value="Intensity Low">
+            <input type="button" id="sortIntensityHigh" value="Intensity High">
+            <select name="Sort By:" id="sortVal">
+                <option value="IA">Intensity Accending</option>
+                <option value="ID">Intensity Decending</option>
+            </select>
+    
+            <div class="listing" id="listing">
+                
+            </div>
+        </div>
+        
+
+        <div id="addFile" class="addFile">
+            <input id="N" placeholder="Name" type="text">
+            <input id="C" placeholder="Class" type="text">
+            <input id="Long" placeholder="Longitude" type="text">
+            <input id="Lat" placeholder="Latitude" type="text">
+            <input id="D" placeholder="Date" type="text">
+            <input id="I" placeholder="Intensity" type="text">
+            <input id="addBTN" type="button" value="Submit Disaster">
+        </div>
+
+        <!--Other File Referencces-->
+        <script src="FileReader.js"></script>
+        <link rel="stylesheet" href="/GUI.css"></link>
+    </body>
+</html>
